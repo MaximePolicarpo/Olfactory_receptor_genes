@@ -35,7 +35,9 @@ on iTOL, root using non-OR outgroup sequences and select sequences that are well
 
 File_good_seqs.txt :
 Mysequence1
+
 Mysequence2
+
 Mysequence3
 
 
