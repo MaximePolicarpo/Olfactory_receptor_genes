@@ -34,6 +34,7 @@ The results will consist in phylogenetic tree containing all the putative ORs fo
 on iTOL, root using non-OR outgroup sequences and select sequences that are well clustered with OR genes. The label of good ORs (sequence name without the fasta header >) should be put in a text file, with one sequence per line. Example : 
 
 File_good_seqs.txt :
+
 Mysequence1
 
 Mysequence2
