@@ -14,12 +14,12 @@ This folder should also contain the following files :
 
 Several dependencies are needed : 
 
-- EMBOSS package
-- IQ-TREE
-- samtools
-- BLAST+
-- mafft
-- CD-HIT
+- EMBOSS 6.6.0.0
+- IQ-TREE 1.6.12
+- samtools v1.9
+- BLAST 2.6.0+
+- MAFFT v7.310
+- CD-HIT 4.8.1
 - R with the packages  "data.table", "dplyr", "plyranges", "GenomicRanges"
 
 
