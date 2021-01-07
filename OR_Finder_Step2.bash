@@ -40,7 +40,7 @@ transeq clear_Functionnal_ORs_multifasta_cdhit.fa clear_Functionnal_ORs_multifas
 
 IFS=$'\n'
 
-#Put every "not clear" sequences in our pseudogene list
+#Put sequences with N nucleotides in a file to remember them
 grep ">" clear_Functionnal_ORs_multifasta_cdhit.fa | sed 's/>//g' > clears_ID.list
 grep ">" Functionnal_ORs_multifasta_cdhit.fa | sed 's/>//g' > unclear_IDs.list
 
@@ -75,12 +75,8 @@ Rscript R_script_numero2_2.R
 
 
 
-#extract coordinates of found pseudogenes and concatenate with our first pseudogene list (genes that had N nucleotides)
+#Rename file 
 
-
-sed -i 's/-/	/g' Ambiguous_sequences.list
-
-cat Pseudogenes_Ids.list  > OR_genes_with_N.tsv
 
 cat Pseudo_truncated_coordinates.tsv > ALL_pseudo.tsv
 
