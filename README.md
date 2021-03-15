@@ -61,4 +61,5 @@ One can also classify pseudogenes by performing a blastx against known fish ORs 
 
 To get results faster, one can compute near-ML trees with FastTree instead of ML trees produced with IQ-TREE but results could change a bit.
 
+Do not hesitate to sent me an e-mail (maxime.policarpo@egce.cnrs-gif.fr) to suggest modifications or to report a bugg ! 
 
