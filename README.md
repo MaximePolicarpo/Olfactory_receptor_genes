@@ -57,9 +57,9 @@ This will result in several output files :
 One can also classify pseudogenes by performing a blastx against known fish ORs and assign pseudogenes based on their best blastx match
 
 
-
-
 To get results faster, one can compute near-ML trees with FastTree instead of ML trees produced with IQ-TREE but results could change a bit.
 
-Do not hesitate to sent me an e-mail (maxime.policarpo@egce.cnrs-gif.fr) to suggest modifications or to report a bugg ! 
+Do not hesitate to sent me an e-mail (maxime.policarpo@egce.cnrs-gif.fr) to suggest modifications or to report any problem !
+
+PS : The manual verification can be omitted using the R package "ape" to exlucde sequences that are not grouped with OR genes in the phylogeny. This is currently being integrated in the pipeline with some other modifications. This new pipeline will be released soon
 
